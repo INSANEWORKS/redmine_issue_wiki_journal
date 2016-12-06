@@ -1,0 +1,4 @@
+zh:
+  issue_wiki_journal:
+    text_status_changed_by_wiki_changeset: "WIKI相关：应用于WIKI- [[%{page}]] 的变更集 %{version} 。"
+
