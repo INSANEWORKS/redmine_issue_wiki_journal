@@ -1,7 +1,7 @@
 <% if controller_name == 'wiki' && action_name == 'history' -%>
 <script>
   (function() {
-    var issuePath = '<%=j issue_path(999) %>'.replace(/999$/, '');
+    var issuePath = '<%= j issue_path(999) %>'.replace(/999$/, '');
     var re = /#(\d+)/;
     var comment;
 
@@ -14,4 +14,3 @@
   })();
 </script>
 <% end -%>
-
